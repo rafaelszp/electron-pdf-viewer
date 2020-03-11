@@ -1,0 +1,22 @@
+{
+  "name": "electron-pdf-viewer",
+  "version": "1.0.0",
+  "description": "A simple PDF Viewer using electron and ViewerJS",
+  "main": "src/main/main.js",
+  "repository": "github.com/rafaelszp/electron-pdf-viewer",
+  "author": "Rafael Pereira",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "yarn && electron ."
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "jquery": "^3.4.1",
+    "pdf-to-printer": "^1.4.0",
+    "pure-uuid": "^1.6.0"
+  },
+  "devDependencies": {
+    "electron": "^4.2.11"
+  }
+}

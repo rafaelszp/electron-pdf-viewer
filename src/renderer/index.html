@@ -1,0 +1,13 @@
+<script>
+
+    const ipc = require('electron').ipcRenderer;
+
+    const openpdf = () =>{
+        ipc.send('open-pdf-viewer',undefined);
+    }
+</script>
+
+
+<button onclick="openpdf()">
+    Open PDF VIEWER
+</button>
